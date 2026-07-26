@@ -1,6 +1,6 @@
 {
   "name": "@lucid-softworks/after",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Invoke a function only after a call threshold is reached.",
   "keywords": [
     "after",
