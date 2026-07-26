@@ -6,5 +6,9 @@ return `undefined`.
 ```ts
 import { after } from "@lucid-softworks/after";
 
-const announceReady = after(3, announce);
+const announceReady = after(3, (message: string) => console.log(message));
+
+announceReady("Waiting");
+announceReady("Still waiting");
+announceReady("Ready"); // Logs "Ready".
 ```
